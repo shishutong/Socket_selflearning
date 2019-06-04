@@ -3,6 +3,7 @@
 learinig in https://blog.csdn.net/fireroll/article/details/38782757
 
 1. 套接字
+
 套接字是为特定网络协议(例如TCP/IP，ICMP/IP，UDP/IP等)套件对上的网络应用程序提供者提供当前可移植标准的对象。
 它们允许程序接受并进行连接，如发送和接受数据。为了建立通信通道，网络通信的每个端点拥有一个套接字对象极为重要。
 套接字为BSD UNIX系统核心的一部分，而且他们也被许多其他类似UNIX的操作系统包括Linux所采纳。
@@ -34,7 +35,7 @@ learinig in https://blog.csdn.net/fireroll/article/details/38782757
    backlog指定了最多连接数，至少为1，接到连接请求后，这些请求必须排队，如果队列已满，则拒绝请求。
 
 第4步: 服务器套接字通过socket的accept方法等待客户请求一个连接：
-   connection,address=socket.accept()
+   connection,address=socket.accept()
    调用accept方法时，socket会进入'waiting'（或阻塞）状态。客户请求连接时，方法建立连接并返回服务器。
    accept方法返回一个含有俩个元素的元组，形如(connection,address)。
       第一个元素（connection）是新的socket对象，服务器通过它与客户通信；
