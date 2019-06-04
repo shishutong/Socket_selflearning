@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-#
 
 from socket import *
 
@@ -19,5 +18,5 @@ while True:
     data=tcpCliSock.recv(BUFSIZE)
     if not data:
         break
-    print data.strip()
+    print data
     tcpCliSock.close()
