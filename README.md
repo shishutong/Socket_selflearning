@@ -1,6 +1,7 @@
 #### Python Socket 网络编程学习
 
 learinig in https://blog.csdn.net/fireroll/article/details/38782757
+            https://www.liaoxuefeng.com/wiki/1016959663602400/1017788916649408
 
 1. 套接字
 
